@@ -1,59 +1,76 @@
-#Meloboxd
-Meloboxd es una aplicación móvil desarrollada en **Flutter** que permite a los usuarios descubrir música, escribir reseñas, calificarlas con estrellas y organizarlas en listas personalizadas llamadas "Cajitas".  
-Está enfocada en ofrecer una experiencia intuitiva y moderna, ideal para personas que buscan un espacio centralizado para compartir opiniones musicales y gestionar sus favoritos.
+# MELOBOXD 🎶
 
-----------------------------------------------------------------------------------------------------------------------------
-FUNCIONES
-- Inicio de sesión y registro de usuarios.
-- Búsqueda de canciones, álbumes y artistas.
-- Creación de reseñas con sistema de estrellas (1 a 5).
-- Filtrado de reseñas por recientes/antiguas y positivas/negativas.
-- Apartado de favoritos para guardar reseñas destacadas.
-- Organización de reseñas en **Cajitas** personalizadas.
-- Pantalla de perfil con ajustes (modo oscuro, cerrar sesión, etc.).
-- Interfaz intuitiva y moderna.
-- Manejo de estado con **Provider**.
+Aplicación móvil desarrollada en **Flutter** que permite a los usuarios descubrir música, escribir reseñas, calificarlas con estrellas y organizarlas en listas personalizadas llamadas **Cajitas**.  
+Está enfocada en ofrecer una experiencia intuitiva y moderna para centralizar opiniones musicales en un solo espacio.
 
-----------------------------------------------------------------------------------------------------------------------------
-ESTRUCTURA DEL PROYECTO
+---
+
+## 🎯 Funciones principales
+1. Inicio de sesión y registro de usuarios.  
+2. Búsqueda de canciones, álbumes y artistas.  
+3. Creación de reseñas con sistema de estrellas (1 a 5).  
+4. Filtrado de reseñas por fecha o valoración.  
+5. Apartado de favoritos para guardar reseñas destacadas.  
+6. Organización de reseñas en **Cajitas** personalizadas.  
+7. Pantalla de perfil con ajustes (modo oscuro, cerrar sesión, etc.).  
+8. Interfaz intuitiva y moderna.  
+9. Manejo de estado con **Provider**.  
+
+---
+
+## 📂 Estructura del proyecto
 lib/
-├── models/        -> Modelos de datos
-├── providers/     ->Manejo de estado
-├── screens/       -?Pantallas principales
-├── services/      ->Servicios y lógica
-├── theme/         ->Configuración de estilos y temas
-├── utils/         ->Utilidades y constantes
-├── widgets/       ->Widgets reutilizables
-└── main.dart      ->Punto de entrada de la app
+├── models/        # Modelos de datos
+├── providers/     # Manejo de estado
+├── screens/       # Pantallas principales
+├── services/      # Servicios y lógica
+├── theme/         # Configuración de estilos y temas
+├── utils/         # Utilidades y constantes
+├── widgets/       # Widgets reutilizables
+└── main.dart      # Punto de entrada de la app
 
-----------------------------------------------------------------------------------------------------------------------------
-INSTALACION
-Todos los comandos se ejecutan en la terminal (ya sea la de tu dispositivo o la integrada en Visual Studio Code).
-1. **Clonar el repositorio**
+Código
+
+---
+
+## ⚙️ Instalación
+> Todos los comandos se ejecutan en la terminal (ya sea la de tu dispositivo o la integrada en Visual Studio Code).
+
+1. **Clonar el repositorio**  
    ```bash
    git clone https://github.com/usuario/meloboxd.git
-2. Entrar a la carpeta del proyecto
-   cd meloboxd
-3. Instalar dependencias
-   flutter pub get
-4. Ejecutar la app
-  flutter run
-----------------------------------------------------------------------------------------------------------------------------
-USO DE LA APLICACION
-1.Inicia sesión o crea una cuenta nueva.
+Entrar a la carpeta del proyecto
 
-2.Accede al menú principal.
+bash
+cd meloboxd
+Instalar dependencias
 
-3.Explora reseñas musicales y usa el buscador para encontrar canciones o artistas.
+bash
+flutter pub get
+Ejecutar la aplicación
 
-4.Crea una reseña y califícala con estrellas.
+bash
+flutter run
+📱 Uso de la aplicación
+Iniciar sesión o crear cuenta.
 
-5.Guarda tus reseñas favoritas en el apartado de Favoritos.
+Acceder al menú principal.
 
-6.Organiza reseñas en Cajitas para personalizar tu experiencia.
+Explorar reseñas musicales y usar el buscador para encontrar canciones o artistas.
 
-7.Ajusta la configuración desde tu perfil (modo oscuro, cerrar sesión, etc.).
-----------------------------------------------------------------------------------------------------------------------------
-Autores
-Miguel Sánchez Azua
-Juliana Kali Molar Molar
+Crear una reseña y calificarla con estrellas.
+
+Guardar reseñas favoritas en el apartado de Favoritos.
+
+Organizar reseñas en Cajitas personalizadas.
+
+Ajustar opciones desde el perfil (modo oscuro, cerrar sesión, etc.).
+
+🛠️ Solución de problemas comunes
+Error al iniciar la app: Verifica que tengas instalada la versión correcta de Flutter.
+
+No carga contenido: Revisa tu conexión a Internet.
+
+Problemas con el login: Asegúrate de que tu correo esté registrado y la contraseña sea correcta.
+
+Pantallas en blanco: Ejecuta flutter clean y luego flutter pub get.
