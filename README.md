@@ -18,7 +18,7 @@ Su propósito es ofrecer una plataforma moderna e intuitiva donde los usuarios p
 
 ---
 
-##Estructura del proyecto
+## Estructura del proyecto
 ```bash
 lib/
 ├── models/        # Modelos de datos
@@ -51,7 +51,7 @@ cd meloboxd
 ```bash
 flutter run
 ```
-##Uso de la aplicación
+## Uso de la aplicación
 Iniciar sesión o crear cuenta.
 
 Acceder al menú principal.
@@ -66,7 +66,7 @@ Organizar reseñas en Cajitas personalizadas.
 
 Ajustar opciones desde el perfil (modo oscuro, cerrar sesión, etc.).
 
-##Solución de problemas comunes
+## Solución de problemas comunes
 Error al iniciar la app: Verifica que tengas instalada la versión correcta de Flutter.
 
 No carga contenido: Revisa tu conexión a Internet.
@@ -75,7 +75,7 @@ Problemas con el login: Asegúrate de que tu correo esté registrado y la contra
 
 Pantallas en blanco: Ejecuta flutter clean y luego flutter pub get.
 
-###Autores
+### Autores
 Miguel Sánchez Azua
 
 Juliana Kali Molar Molar
