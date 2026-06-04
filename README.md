@@ -32,7 +32,7 @@ lib/
 ```
 
 
-##Instalación
+## Instalación
 Todos los comandos se ejecutan en la terminal (ya sea la de tu dispositivo o la integrada en Visual Studio Code).
 
 1. Clonar el repositorio
@@ -74,7 +74,7 @@ No carga contenido: Revisa tu conexión a Internet.
 Problemas con el login: Asegúrate de que tu correo esté registrado y la contraseña sea correcta.
 
 Pantallas en blanco: Ejecuta flutter clean y luego flutter pub get.
-
+---
 ### Autores
 Miguel Sánchez Azua
 
