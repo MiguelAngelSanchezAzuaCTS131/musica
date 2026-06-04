@@ -1,7 +1,7 @@
 # MELOBOXD 🎶
 
-Aplicación móvil desarrollada en **Flutter** que permite a los usuarios descubrir música, escribir reseñas, calificarlas con estrellas y organizarlas en listas personalizadas llamadas **Cajitas**.  
-Está enfocada en ofrecer una experiencia intuitiva y moderna para centralizar opiniones musicales en un solo espacio.
+Aplicación móvil desarrollada en **Flutter** que centraliza reseñas musicales en un solo espacio.  
+Su propósito es ofrecer una plataforma moderna e intuitiva donde los usuarios puedan descubrir música, escribir reseñas, calificarlas con estrellas y organizarlas en listas personalizadas llamadas **Cajitas**.
 
 ---
 
@@ -18,7 +18,8 @@ Está enfocada en ofrecer una experiencia intuitiva y moderna para centralizar o
 
 ---
 
-## 📂 Estructura del proyecto
+Estructura del proyecto
+```bash
 lib/
 ├── models/        # Modelos de datos
 ├── providers/     # Manejo de estado
@@ -28,30 +29,29 @@ lib/
 ├── utils/         # Utilidades y constantes
 ├── widgets/       # Widgets reutilizables
 └── main.dart      # Punto de entrada de la app
+```
 
-Código
 
----
-
-## ⚙️ Instalación
-> Todos los comandos se ejecutan en la terminal (ya sea la de tu dispositivo o la integrada en Visual Studio Code).
+Instalación
+Todos los comandos se ejecutan en la terminal (ya sea la de tu dispositivo o la integrada en Visual Studio Code).
 
 1. **Clonar el repositorio**  
    ```bash
    git clone https://github.com/usuario/meloboxd.git
-Entrar a la carpeta del proyecto
-
-bash
+   
+2.Entrar a la carpeta del proyecto
+```bash
 cd meloboxd
-Instalar dependencias
-
-bash
-flutter pub get
-Ejecutar la aplicación
-
-bash
+```
+3. Instalar dependencias
+ ```bash
+   flutter pub get
+```
+4.Ejecutar la aplicacion
+```bash
 flutter run
-📱 Uso de la aplicación
+```
+Uso de la aplicación
 Iniciar sesión o crear cuenta.
 
 Acceder al menú principal.
@@ -66,7 +66,7 @@ Organizar reseñas en Cajitas personalizadas.
 
 Ajustar opciones desde el perfil (modo oscuro, cerrar sesión, etc.).
 
-🛠️ Solución de problemas comunes
+🧰 Solución de problemas comunes
 Error al iniciar la app: Verifica que tengas instalada la versión correcta de Flutter.
 
 No carga contenido: Revisa tu conexión a Internet.
@@ -74,3 +74,8 @@ No carga contenido: Revisa tu conexión a Internet.
 Problemas con el login: Asegúrate de que tu correo esté registrado y la contraseña sea correcta.
 
 Pantallas en blanco: Ejecuta flutter clean y luego flutter pub get.
+
+👨‍💻 Autores
+Miguel Sánchez Azua
+
+Juliana Kali Molar Molar
