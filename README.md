@@ -74,8 +74,9 @@ No carga contenido: Revisa tu conexión a Internet.
 Problemas con el login: Asegúrate de que tu correo esté registrado y la contraseña sea correcta.
 
 Pantallas en blanco: Ejecuta flutter clean y luego flutter pub get.
----
+
 ### Autores
+---
 Miguel Sánchez Azua
 
 Juliana Kali Molar Molar
