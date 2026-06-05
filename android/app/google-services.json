@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858755344210",
+    "project_id": "meloboxd",
+    "storage_bucket": "meloboxd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858755344210:android:56f702b029de0d4f8d7c8b",
+        "android_client_info": {
+          "package_name": "com.example.musicboxd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdAxXt6hvJN4G1Nsp5ubDrGfRQtO81WKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
